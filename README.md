@@ -42,7 +42,7 @@ You may notice that in the listed information we don’t mention the image for t
 We can make this decision later during the development of the project because we can start off by working without them, and then later down the road add the images before we release the first alpha version.
 
 ### Non-Transferable Soulbound Tokens(SBTs) + Badges
-For now one of the main ideas of SBTs is to restrict access to certain websites/content/data/etc to only people that have the required Badges or SBTs. The decision of who can access the website needs to be made by the website or data owners. They have to define the rules about accessing their website or data.
+For now one of the main ideas of SBTs is to restrict access to certain websites/content/data/etc to people that only have the required Badges or SBTs. The decision of who can access the website needs to be made by the website or data owners. They have to define the rules about accessing their website or data.
 
 We have tought of multiple ways to achieve this, but the following is the best solution that we have found.
 
@@ -52,7 +52,7 @@ We are going to store information about restrictions of the certain websites or 
 _website_domain - the domain of the website is going to be the key for searching the required soulbound tokens_
 _soulbound tokens - this is going to be a vector of different achievements/affiliations/memberships/etc that the user must have to acces the website_
 
-###EXAMPLE - Access Tokens for Certian Websites
+### EXAMPLE - Access Tokens for Certian Websites
 
 **But how are we going to verify that this is set by the website or data owner?**
 We are going to use an approach that is very frequently used for domain verification.
