@@ -25,11 +25,11 @@ The backend canister is going to store the information about the users of Segeni
 Each soulbound token is going to have the following information stored in the canister:
 
 ```
-id - an unique identifier for the achievement
+id - an unique identifier for the oulbound token
 
-name - the name of the achievement
+name - the name of the oulbound token
 
-description - the description of the achievement
+description - the description of the oulbound token
 
 issuer - the creator of the soulbound token
 ```
